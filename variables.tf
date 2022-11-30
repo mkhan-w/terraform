@@ -1,0 +1,12 @@
+variable "vpc_cidr_block" {}
+variable "subnet_cidr_block" {}
+variable "availability_zone" {}
+variable "env_prefix" {}
+variable "my_ip" {}
+variable "instance_type" {}
+variable "public_key_location" {}
+variable "private_key_location" {}
+variable "vpc_id" {}
+variable "route_table_id" {}
+#variable "aws_security_group" {}
+#variable "vpc_security_group_ids" {}
